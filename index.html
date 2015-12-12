@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fit My Age Calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+<h1>Metabolic Table Calculator Individualized</h1>
+<br>
+<form>
+	<input class="sex" type="radio" name="sex" value="male" checked>Male
+  <br>
+  <input class="sex" type="radio" name="sex" value="female">Female
+  <br>
+	<input id="age" type="number" name="age" placeholder="age in years">
+	<br>
+	<input id="height" type="float" name="height" placeholder="height in meters">
+	<br>
+	<input id="weight" type="float" name="weight" placeholder="weight in kilograms">
+	<br>
+	<input id="duration" type="number" name="duration" placeholder="duration of exercise in minutes">
+	<br>
+	<input id="mets" type="float" name="mets" placeholder="MET level of exercise">
+	<br>
+	<input id="submit" type="submit" name="submit" placeholder="submit">
+</form>
+<br>
+<div id="results"></div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
